@@ -1,0 +1,70 @@
+html{
+    font-size: 20px;
+}
+#first{
+    width: 50vw;
+    
+}
+#first h1{
+    color: red;
+
+    text-shadow: 4px 7px 7px black;
+    margin: 3rem;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+#first button{
+    width: 100%;
+    margin-top: 20px;
+}
+ /* #first{
+    display: none;
+}  */
+.game{
+    width: 60vw;
+    padding: 20px;
+}
+.game .row .pl{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+.game .box .row div{
+    width: 120px;
+    height: 120px;
+    border: 3px solid red;
+    position: relative;
+    top: 60px;
+    left: 140px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 80px;
+}
+.game .box{
+    width: 40vw;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+}
+#second{
+    display: none;
+}
+#second .row #pl1 ,#second .row  #pl2{
+    color: red;
+}
+.impo p{
+    padding: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+input::placeholder {
+    font-weight: 50;
+    opacity: 0.4;
+    color: yellow;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
